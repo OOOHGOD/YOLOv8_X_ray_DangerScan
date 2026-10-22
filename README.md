@@ -1,11 +1,28 @@
-**English** | [简体中文](README.zh-CN.md)
+<div align="center">
 
-# YOLOv8 X-ray Item Detection
+# YOLOv8 X-ray Detection
+
+Prepare annotations, train a detector, and review the results.
+
+**English** · [简体中文](README.zh-CN.md)
+
+![YOLOv8](https://img.shields.io/badge/YOLOv8-111827?style=flat-square) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square) ![PyQt5](https://img.shields.io/badge/PyQt5-41CD52?style=flat-square) [![MIT License](https://img.shields.io/badge/License-MIT-2563EB?style=flat-square)](LICENSE)
+
+</div>
+
+<p align="center">
+<a href="#overview">Overview</a> · <a href="#setup">Setup</a> · <a href="#author--license">Author &amp; License</a>
+</p>
+
+---
+
+> **Project focus** · Coursework Demo
+
+
+## Overview
 
 A coursework demonstration with annotation conversion, YOLOv8 training/validation, a PyQt5 review interface, and spreadsheet export of detection results.
 
-**Category:** Artificial Intelligence · Computer Vision  
-**Stack:** Python · PyTorch · Ultralytics · OpenCV · PyQt5
 
 ## Components
 
@@ -57,8 +74,8 @@ Inspect image detections and save results as `detection_results.xlsx` in the int
 
 Data must be prepared separately. Stored plots/checkpoint names do not establish a new evaluation. This is an educational demo, not an independently validated screening system. Export options depend on the installed framework and target environment. Data, weights, and upstream code retain separate licensing terms.
 
-## Author and license
+## Author & License
 
-Author / maintainer: [https://github.com/OOOHGOD](https://github.com/OOOHGOD).
+Author / maintainer: [OOOHGOD](https://github.com/OOOHGOD) · Original contributions: [MIT License](LICENSE)
 
-Eligible original contributions are under the [MIT License](LICENSE), permitting commercial use and modification with preservation of copyright and license notices in copies or substantial portions. [License scope](LICENSE_SCOPE.md) explains third-party exclusions and upstream terms.
+Commercial use and modification are permitted with preservation of copyright and license notices in copies or substantial portions. Third-party code, datasets, models, and media retain their own terms; see [license scope](LICENSE_SCOPE.md).
